@@ -54,7 +54,6 @@ if user_bet:
     # sets winning color to the winning turtle's color
     winning_color = winning_turtle.pencolor()
 
-    # check if the bet's color is the same as the winning color
     if winning_color == user_bet:
         print(f"You have won the bet. The {winning_color} turtle won the race.")
     else:
