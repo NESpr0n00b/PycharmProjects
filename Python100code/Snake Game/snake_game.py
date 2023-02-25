@@ -28,11 +28,11 @@ while game_is_on:
 
     # updates the screen in an interval
     screen.update()
-    time.sleep(0.2)
+    time.sleep(1)
 
     # moves the snake
-    snake.move("none")
-
+    snake.move()
+    snake.set_last_heading()
 
 # end of code, exit screen when clicked
 screen.exitonclick()
